@@ -18,9 +18,9 @@
 }
 .Layout main {
   flex: 80% 1 1;
-  background-color: rgb(33, 218, 132);
+  background-color: rgb(218, 33, 156);
 }
 .Layout footer {
   flex: 100% 0 0;
-  background-color: red;
+  background-color: palevioletred;
 }
