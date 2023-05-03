@@ -4,7 +4,7 @@
 body {
   margin: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Syne+Mono&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -19,18 +19,19 @@ body {
 }
 
 .Home h1 {
-  color: brown;
- 
-  padding-left:  55px;
+  color:black;
+  padding-left:  55px; 
   padding-top: 25px;
 }
 
 .Home p{
-  color: brown;
+  color:black;
+  padding-left:  55px; 
+  
 }
 
 .Home {
-  background-image: url(https://cdn.shopify.com/s/files/1/0662/4598/4498/collections/PLP-Imagery_Cosmetics_Collections_gloss-_-glow_Desktop_SP_opt-1_1920x549.webp?v=1677078719);
+  background-image: url(https://wallpapercave.com/wp/wp4288360.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 400px;
@@ -38,23 +39,19 @@ body {
 }
 
 .Home img {
-  max-width: 959px;
+  max-width: 1000px;
 }
 
 .About p{
-  color: red;
+  color:black;
 }
 
 
 button{
-  background-color: rgb(189, 98, 98);
+  background-color: rgb(21, 20, 20);
   padding: 4px;
   border-radius: 5px;
-  color: rgb(105, 32, 32);
-  border: 1px solid rgb(106, 80, 80);
+  color: rgb(221, 198, 23);
+  border: 1px solid rgb(25, 24, 24);
 }
 
-button:hover{
-  background-color:rgb(136, 70, 70) ;
-  color: rgb(228, 158, 158);
-}
