@@ -7,7 +7,7 @@ import {GoogleAuthProvider, getAuth,signOut,signInWithPopup, onAuthStateChanged,
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB8x5b8PX8iXR-NnWjsrwVCJvyZeVfYT0o",
+  apiKey: "AlizaSyB8x5b8PX8iXR-NnWjsrwVCJvyZeVfYT0o",
   authDomain: "diploma-5158b.firebaseapp.com",
   projectId: "diploma-5158b",
   storageBucket: "diploma-5158b.appspot.com",
