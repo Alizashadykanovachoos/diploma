@@ -11,9 +11,7 @@ export default function OrderForm() {
 
   function onSubmit(event) {
     event.preventDefault();
-
     const data = new FormData(event.target);
-
     // добавить данные в базу
     addDoc(orderCollection, {
       name: data.get("name"),
@@ -34,7 +32,12 @@ export default function OrderForm() {
   }
 
   if (!user) {
-    return "Please login";
+    return (
+      <div className="Please" >
+        
+        "Please login"
+      </div>
+    );
   }
 
   return (
@@ -42,13 +45,13 @@ export default function OrderForm() {
       <form onSubmit={onSubmit}>
         <h3>Create an order</h3>
         <label>
-          Name: <input type="text" name="name" required />
+          <span>Name: </span>  <input type="text" name="name" required />
         </label>
         <label>
-          Phone: <input type="telephone" name="phone" required />
+          <span>Phone:</span>  <input type="telephone" name="phone" required />
         </label>
         <label>
-          Address: <input type="text" name="address" required />
+          <span>Address:</span> <input type="text" name="address" required />
         </label>
         <button>Submit</button>
       </form>
