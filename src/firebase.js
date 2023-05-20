@@ -7,7 +7,7 @@ import {GoogleAuthProvider, getAuth,signOut,signInWithPopup, onAuthStateChanged,
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AlizaSyB8x5b8PX8iXR-NnWjsrwVCJvyZeVfYT0o",
+  apiKey: "AISyB8x5b8PX8iXR-NnWjsrwVCJvyZeVfYT0o",
   authDomain: "diploma-5158b.firebaseapp.com",
   projectId: "diploma-5158b",
   storageBucket: "diploma-5158b.appspot.com",
@@ -30,5 +30,33 @@ const provider = new GoogleAuthProvider();
 export const logIn = () => signInWithPopup(auth, provider);
 export const logOut = () => signOut(auth);
 export const onAuthChange = (callback) => onAuthStateChanged(auth,callback);
+
+export const onCategoriesLoad = (callback) =>
+  onSnapshot(categoryCollection, (snapshot) =>
+    callback(
+      snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+      }))
+    )
+  );
+export const onProductsLoad = (callback) =>
+  onSnapshot(productsCollection, (snapshot) =>
+    callback(
+      snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+      }))
+    )
+  );
+export const onOrdersLoad = (callback) =>
+  onSnapshot(ordersCollection, (snapshot) =>
+    callback(
+      snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+      }))
+    )
+  );
 
 

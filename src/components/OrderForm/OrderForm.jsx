@@ -32,12 +32,7 @@ export default function OrderForm() {
   }
 
   if (!user) {
-    return (
-      <div className="Please" >
-        
-        "Please login"
-      </div>
-    );
+    return <div className="Please">"Please login"</div>;
   }
 
   return (
@@ -45,10 +40,10 @@ export default function OrderForm() {
       <form onSubmit={onSubmit}>
         <h3>Create an order</h3>
         <label>
-          <span>Name: </span>  <input type="text" name="name" required />
+          <span>Name: </span> <input type="text" name="name" required />
         </label>
         <label>
-          <span>Phone:</span>  <input type="telephone" name="phone" required />
+          <span>Phone:</span> <input type="telephone" name="phone" required />
         </label>
         <label>
           <span>Address:</span> <input type="text" name="address" required />
