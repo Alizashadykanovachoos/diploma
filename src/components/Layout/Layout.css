@@ -15,7 +15,7 @@
   align-items: center;
 }
 .Layout aside {
-  flex: 20% 0 0;
+  flex: 20%;
   background-color: azure;
 }
 .Layout main {
@@ -31,3 +31,4 @@
     display: none;
   }
 } 
+
