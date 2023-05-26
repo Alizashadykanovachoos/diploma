@@ -6,12 +6,8 @@ export default function Nav() {
     <nav className="Nav">
       <ul>
         <li><NavLink to="/">Home</NavLink></li>
-       <li><NavLink to="/about">About</NavLink></li>
-      <li><NavLink to="/contacts">Contacts</NavLink></li>
-      <li><NavLink to="/delivery">Delivery</NavLink></li>
+        <li><NavLink to="/about">About</NavLink></li>
       </ul>
-      
-      
     </nav>
   );
 }
