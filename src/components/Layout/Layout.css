@@ -17,7 +17,7 @@
 .Layout aside {
   flex: 20%;
   background-color: azure;
-}  
+} 
 .Layout main {
   flex: 80% 1 1;
   background-color: rgb(168, 160, 255);
