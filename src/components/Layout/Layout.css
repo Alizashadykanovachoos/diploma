@@ -4,23 +4,30 @@
   display: flex;
   flex-wrap: wrap;
 }
-
 .Layout header {
   flex-basis: 100%;
   flex-grow: 0;
   flex-shrink: 0;
+  background-color: antiquewhite;
 
-  background-color: rgba(225, 237, 58, 0.976);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .Layout aside {
   flex: 20% 0 0;
-  background-color:nrgb(45, 229, 235);
+  background-color: azure;
 }
 .Layout main {
   flex: 80% 1 1;
-  background-color: rgb(239, 225, 225);
+  background-color: rgb(168, 160, 255);
 }
 .Layout footer {
   flex: 100% 0 0;
-  background-color: rgb(242, 228, 228);
+  background-color: rgb(235, 235, 235);
 }
+@media (max-width: 650px) {
+  .Layout header > .Nav {
+    display: none;
+  }
+} 
