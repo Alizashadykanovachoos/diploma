@@ -3,4 +3,200 @@
 }
 body {
   margin: 0;
+  font-family: 'Roboto', arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+}
+a{
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.Layout header{
+  background: #000;
+}
+.Nav ul li a{
+  color: #fff;
+  font-size: 18px;
+}
+.Nav ul li a:hover{
+  color: #000;
+  background: #fff;
+  border-radius: 5px;
+}
+.CartLink a{
+  color: #fff;
+}
+.Auth button{
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 3px 8px;
+  border: 1px solid #000;
+  background: #fff;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+}
+.Auth button:hover{
+  background: #000;
+  color: #fff;
+  border-color: #fff;
+}
+.Auth span{
+  display: block;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.Auth a{
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+header{
+  padding: 0 15px;
+}
+.Layout main{
+  background: #fff;
+  padding: 20px 30px;
+  min-height: 600px;
+}
+.Layout footer{
+  background: #000;
+  color: #fff;
+}
+.Layout aside{
+  background: #000;
+}
+.CategoryList ul{
+  padding-left: 0;
+}
+.CategoryList  li{
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.CategoryList a{
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 15px;
+  display: block;
+}
+.CategoryList a:hover{
+  background: #fff;
+  color: #000;
+}
+.Footer{
+  padding: 30px 15px;
+}
+
+.ProductList{
+  display: flex;
+  justify-content: space-between;
+}
+.Product{
+  width: 30%;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 10px;
+  transition: 0.3s;
+}
+.Product img{
+  display: block;
+  margin-bottom: 10px;
+}
+.Product a{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+.AddToCart button{
+  width: 100%;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #000;
+  transition: 0.3s;
+  padding: 5px;
+  cursor: pointer;
+}
+.AddToCart button:hover{
+  background: #000;
+  color: #fff;
+}
+.OrderForm {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 50px;
+}
+.OrderForm h3{
+  margin-top: 0;
+}
+.OrderForm label{
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.OrderForm input{
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-top: 5px;
+}
+.OrderForm button{
+  margin-top: 15px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  padding: 5px;
+  transition: 0.3s;
+}
+.OrderForm button:hover{
+  background: #000;
+  color: #fff;
+}
+.CartList{
+  flex-direction: column;
+}
+.CartItem{
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 10px;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.CartItem:hover{
+  background: #ddd;
+}
+.CartItem a{
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+}
+.CartItem input{
+  width: 80px;
+}
+.CartItem  button{
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #fff;
+  padding: 3px;
+  width: 100px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.CartItem  button:hover{
+  background: #000;
+  color: #fff;
 }
