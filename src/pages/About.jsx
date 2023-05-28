@@ -25,7 +25,7 @@ Our company has been successfully operating in the computer equipment market for
           </div>
           <div className="change-photo">
             <img
-              src="  "
+              src="   "
               alt=""
             />
           </div>
