@@ -18,6 +18,8 @@ export default function Contact() {
       <a href="tel:+ 996 550 655 922" className="number-2">
         +996 552 177 006
       </a>
+      
+   
     </div>
   );
 }
