@@ -13,9 +13,9 @@ import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
 import ThankYou from "./pages/ThankYou";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Contacts";
 import About from "./pages/About";
-import Delivery from "./pages/Delivery";
+import Delivery from "./pages/Deliverys";
 import Orders from "./pages/Orders";
 
 export const AppContext = createContext({
