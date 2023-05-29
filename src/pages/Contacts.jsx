@@ -4,11 +4,12 @@ export default function Contact() {
       <h2 className="four-address-h2">Our address:</h2>
       <div className="map">
         <iframe
-          src="https://maps.app.goo.gl/Rc4oMuVVeCADYWfK7"
+          src=""
           width="100%"
           height="400"
           frameborder="0"
         ></iframe>
+            
       </div>
       <h2 className="phone-number-h2">Phone number:</h2>
       <a href="tel:+ 996 550 655 922" className="number-1">
