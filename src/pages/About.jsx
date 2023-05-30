@@ -24,10 +24,12 @@ export default function About() {
         </div>
         <div className="home-photo-categorii">
           <div className="photo">
-            <div class="photo">
-                         </div>
+            <div class="photo"></div>
             <div className="change-photo">
-              <img src="https://i.rtings.com/assets/pages/IxCXzynA/apple-laptop-lineup-20220825-3-medium.jpg" alt="" />
+              <img
+                src="https://i.rtings.com/assets/pages/IxCXzynA/apple-laptop-lineup-20220825-3-medium.jpg"
+                alt=""
+              />
             </div>
           </div>
         </div>
