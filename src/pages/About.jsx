@@ -25,13 +25,9 @@ export default function About() {
         <div className="home-photo-categorii">
           <div className="photo">
             <div class="photo">
-              <img
-                src="https://phonoteka.org/uploads/posts/2022-02/thumbs/1644246898_2-phonoteka-org-p-polnii-chernii-fon-2.jpg"
-                alt=""
-              />
-            </div>
+                         </div>
             <div className="change-photo">
-              <img src="" alt="" />
+              <img src="https://i.rtings.com/assets/pages/IxCXzynA/apple-laptop-lineup-20220825-3-medium.jpg" alt="" />
             </div>
           </div>
         </div>
